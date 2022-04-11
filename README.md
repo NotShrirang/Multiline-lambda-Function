@@ -4,14 +4,15 @@ Multiline lambda function in python. Give arguments to lambdafunction() and incl
 <h2>Syntax :</h2>
 General Syntax : 
 lambdaFunction.lambdafunction("list of string arguments", caller="string argument which gets calls the function.")
-1. First list of arguements should be wrapped in single function.
+<ul>
+<li>First list of arguements should be wrapped in single function.</li>
    eg. lambdaFunction.lambdafunction("def add(x, y) :","...", caller="...")
-2. All the syntax should be same as python. Use "\t" for indentation.
-3. Function should have some return method.
+<li>All the syntax should be same as python. Use "\t" for indentation</li>
+<li>Function should have some return method.</li>
    eg. lambdaFunction.lambdafunction("def add(x, y) :","\n\treturn(x+y)", caller="...")
-4. Then pass the function name to caller. (Here, "add")
+<li>Then pass the function name to caller. (Here, "add")</li>
    eg. lambdaFunction.lambdafunction("def add(x, y) :","\n\treturn(x+y)", caller="add(3, 6)")
        returns -> 18
        when, print(lambdaFunction.lambdafunction("def add(x, y) :","\n\treturn(x+y)", caller="add(3, 6)"))
        prints -> 18.
-   
+</ul>
