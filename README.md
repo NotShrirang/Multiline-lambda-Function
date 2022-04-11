@@ -4,6 +4,7 @@ Multiline lambda function in python. Give arguments to lambdafunction() and incl
 <h2>Syntax :</h2>
 General Syntax : 
 lambdaFunction.lambdafunction("list of string arguments", caller="string argument which gets calls the function.")
+<br>
 <ul>
 <li>First list of arguements should be wrapped in single function.</li>
    eg. lambdaFunction.lambdafunction("def add(x, y) :","...", caller="...")
