@@ -14,4 +14,4 @@ def lambdafunction(*args, caller):
     return ret
 
 # syntax :
-#     print(func("def mul(a, b):", "\n\tz = a*b", "\n\treturn z", caller="mul(3, 6)"))    
+#     print(lambdafunction("def mul(a, b):", "\n\tz = a*b", "\n\treturn z", caller="mul(3, 6)"))    
