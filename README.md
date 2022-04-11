@@ -7,13 +7,14 @@ General Syntax :
 <br>
 <ul>
 <li>First list of arguements should be wrapped in single function.</li>
-   eg. lambdaFunction.lambdafunction("def add(x, y) :","...", caller="...")
+   eg. <code>lambdaFunction.lambdafunction("def add(x, y) :","...", caller="...")</code>
 <li>All the syntax should be same as python. Use "\t" for indentation</li>
 <li>Function should have some return method.</li>
-   eg. lambdaFunction.lambdafunction("def add(x, y) :","\n\treturn(x+y)", caller="...")
+   eg. <code>lambdaFunction.lambdafunction("def add(x, y) :","\n\treturn(x+y)", caller="...")</code>
 <li>Then pass the function name to caller. (Here, "add")</li>
-   eg. lambdaFunction.lambdafunction("def add(x, y) :","\n\treturn(x+y)", caller="add(3, 6)")
+   eg. <code>lambdaFunction.lambdafunction("def add(x, y) :","\n\treturn(x+y)", caller="add(3, 6)")</code>
        returns -> 18
-       when, print(lambdaFunction.lambdafunction("def add(x, y) :","\n\treturn(x+y)", caller="add(3, 6)"))
+       <br>
+       when, <code>print(lambdaFunction.lambdafunction("def add(x, y) :","\n\treturn(x+y)", caller="add(3, 6)"))</code>
        prints -> 18.
 </ul>
