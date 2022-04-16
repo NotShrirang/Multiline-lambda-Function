@@ -1,5 +1,5 @@
 import os
-def lambdafunction(*args, caller):
+def lambdafunction(*args: str, caller: str) -> list: 
     '''
     Function to write lambda function with multiple lines. 
 
@@ -14,7 +14,7 @@ def lambdafunction(*args, caller):
         lambdafunction("arg1", "arg2", ..., caller='caller function')
 
     '''
-    with open('lambdaInternal.py', 'a') as f:
+    with open('lambdaInternal.py', 'w') as f:
         for line in args:
             f.write(line)
         f.write("\n\ndef main():\n")
@@ -26,4 +26,4 @@ def lambdafunction(*args, caller):
     return ret
 
 # syntax :
-# print(lambdafunction("def mul(a, b):", "\n\tz = a*b", "\n\treturn z", caller="mul(3, 6)"))    # prints : 18
+# print(lambdafunction("def mul(a, b):", "\n\tz = a*b", "\n\treturn z", caller="mul(3, 6)")) # prints : 18
