@@ -15,6 +15,4 @@ General Syntax :
    eg. <code>lambdaFunction.lambdafunction("def add(x, y) :","\n\treturn(x+y)", caller="add(3, 6)")</code>
        returns -> 18
        <br>
-       when, <code>print(lambdaFunction.lambdafunction("def add(x, y) :","\n\treturn(x+y)", caller="add(3, 6)"))</code>
-       prints -> 18.
 </ul>
