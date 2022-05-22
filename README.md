@@ -1,5 +1,20 @@
 # Multiline lambda Function
+[![PyPI Latest Release](https://img.shields.io/pypi/v/multiLineLambda.svg)](https://pypi.org/project/multiLineLambda/)
+[![License](https://img.shields.io/pypi/l/multiLineLambda.svg)](https://github.com/NotShrirang/Multiline-lambda-Function/blob/main/LICENSE.md)
+
 Multiline lambda function in python. Give arguments to lambdafunction() and include multiple lines in a single lambda function.
+<br>
+
+## PyPI :
+```sh
+pip install multiLineLambda
+```
+
+## Dependencies
+- [OS module](https://docs.python.org/3/library/os.html#module-os)
+
+## License
+[MIT](LICENSE)
 
 <h2>Syntax :</h2>
 General Syntax : 
