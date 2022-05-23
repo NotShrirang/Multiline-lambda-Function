@@ -18,7 +18,8 @@ pip install multiLineLambda
 [MIT](LICENSE)
 
 <h2>Syntax :</h2>
-General Syntax : 
+General Syntax :
+
 <code>lambdaFunction.lambdafunction("list of string arguments", caller="string argument which gets calls the function.")</code>
 <br>
 <ul>
